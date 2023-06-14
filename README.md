@@ -5,3 +5,8 @@ The BloX Ina220 implements a ROS driver to communicate with an [Ina220](https://
 ## Data
 
 The BloX Ina220 publishes battery state data as [sensor_msgs/msg/BatteryState](https://docs.ros2.org/galactic/api/sensor_msgs/msg/BatteryState.html).
+
+## Visualization
+
+![image](https://github.com/rosblox/blox-ina220/assets/20051567/a9addd52-3e94-42ef-b00a-d8f3651d8c66)
+
