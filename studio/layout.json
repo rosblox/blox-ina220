@@ -1,7 +1,7 @@
 {
   "configById": {
     "Plot!3qf8yur": {
-      "title": "Plot",
+      "title": "Current [A]",
       "paths": [
         {
           "value": "/ina220/data.current",
@@ -11,15 +11,16 @@
       ],
       "showXAxisLabels": true,
       "showYAxisLabels": true,
-      "showLegend": true,
+      "showLegend": false,
       "legendDisplay": "floating",
       "showPlotValuesInLegend": false,
       "isSynced": true,
       "xAxisVal": "timestamp",
-      "sidebarDimension": 240
+      "sidebarDimension": 240,
+      "followingViewWidth": 30
     },
     "Plot!2eadu4j": {
-      "title": "Plot",
+      "title": "Battery Voltage [V]",
       "paths": [
         {
           "value": "/ina220/data.voltage",
@@ -29,12 +30,13 @@
       ],
       "showXAxisLabels": true,
       "showYAxisLabels": true,
-      "showLegend": true,
+      "showLegend": false,
       "legendDisplay": "floating",
       "showPlotValuesInLegend": false,
       "isSynced": true,
       "xAxisVal": "timestamp",
-      "sidebarDimension": 240
+      "sidebarDimension": 240,
+      "followingViewWidth": 30
     }
   },
   "globalVariables": {},
